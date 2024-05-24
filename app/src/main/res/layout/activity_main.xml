@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/background" />
+    <TextView
+        android:id="@+id/Kies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kies een spel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+ />
+
+    <ImageButton
+        android:id="@+id/watVindIk"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_below="@+id/Kies"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/purple"
+        android:src="@drawable/ic_launcher_foreground" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Kies"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/watVindIk"
+        android:text="Wat vind ik   erger?"
+        android:textSize="25dp"
+        />
+
+
+
+</RelativeLayout>
